@@ -37,5 +37,5 @@ async function runTask (taskName, task) {
   await runTask('mall-cook-template', installTemplate)
   await runTask('mall-cook-service', installService)
   // electron 可能安装失败
-  await runTask('mall-cook-platform-electron', installPlatformElectron)
+  // await runTask('mall-cook-platform-electron', installPlatformElectron)
 })()
